@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "therapeigh",
+    "slug": "therapeigh",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.therapeigh"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.yourcompany.therapeigh"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": "therapeigh",
+    "packagerOpts": {
+      "hostType": "lan",
+      "lanType": "ip"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "your-project-id"
+      }
+    }
+  }
+}
